@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "options-pricing"
+version = "0.1.0"
+description = "European/American option pricing library: Black-Scholes, CRR binomial tree, Monte Carlo, and a from-scratch autodiff engine, cross-validated against each other"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["options_pricing*"]
